@@ -1,0 +1,23 @@
+{
+	"name": "yii2extension/yii2-error",
+	"type": "library",
+	"keywords": ["yii2","module","error"],
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Yamshikov Vitaliy",
+			"email": "theyamshikov@yandex.ru"
+		}
+	],
+	"minimum-stability": "dev",
+	"autoload": {
+		"psr-4": {
+			"yii2extension\\error\\": "src",
+			"yii2extension\\error\\tests\\": "tests"
+		}
+	},
+	"require": {
+		"yiisoft/yii2": "*",
+		"php": ">=5.3.0"
+	}
+}
